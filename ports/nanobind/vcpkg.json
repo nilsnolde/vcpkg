@@ -11,5 +11,13 @@
       "name": "vcpkg-cmake",
       "host": true
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "python",
+      "description": "Install Python dependency",
+      "dependencies": ["python3"]
+    }
+  ],
+  "default-features": [ "python" ]
 }
